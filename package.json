@@ -1,7 +1,7 @@
 {
   "name": "atom-attribute-sorter",
   "main": "./lib/atom-attribute-sorter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This sorts attributes on a HTML element in the order defined",
   "keywords": [],
   "activationCommands": {
