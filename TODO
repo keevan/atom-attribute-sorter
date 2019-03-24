@@ -1,0 +1,73 @@
+TODO:
+- Clean up readme
+- Ability to sort attributes alphanumerically
+- Ability to certain attributes in a pre-defined list (comma separated)
+- Ability to apply indendation rules (if enabled) if N amount attributes are on the element
+	e.g.
+	<input
+		class="first-name"
+		type="text"
+		placeholder="Please enter your first name"
+	/>
+
+	Different methods of auto-indentation would be implemented (of course current work preferences would be done first)
+
+	Different methods might be differientiated by type (e.g. for each method of
+	autoindentation, there would be a list of attributes that it would apply to.
+	There would be a default method so any attributes not defined would apply the
+	default method of auto indent/strucutre)
+
+	Method 1:
+	---------
+	<div
+		id="app"
+		class="container"
+		data-something-else="2"
+	>
+		<!-- Code -->
+	</div>
+
+	Method 2:
+	---------
+	<div
+		id="app"
+		class="container"
+		data-something-else="2">
+		<!-- Code -->
+	</div>
+
+	Method 3: (selected items on base line, everything else on additional lines)
+	---------
+	<div id="app" class="container"
+		data-something="hello"
+		data-something-else="2"
+	>
+		<!-- Code -->
+	</div>
+
+
+
+If the attribute was self closing (detected '/' before closing '>' of the base tag), then it would format like an input
+Method 1: If enough attributes are included
+	<input
+		class="first-name"
+		type="text"
+		placeholder="Please enter your first name"
+	/>
+
+Method 2: If enough attributes are included
+	<input
+		class="first-name"
+		type="text"
+		placeholder="Please enter your first name"/>
+
+Method 3: If not enough attributes are included (user wants splitting to occur when more attributes are present, e.g. 4)
+	<input class="first-name" type="text" placeholder="Please enter your first name"/>
+
+Otherwise, the closing element, will be automatically adjusted to have the same indentation level as the opening (if there is only whitespace before the element's starting tag)
+	<div
+		...
+		disabled>
+	</div>
+
+This option can be disabled because generally this would already be correct beforehand, and it might cause issues with elements where a self closing tag is not required (e.g. img)

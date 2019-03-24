@@ -1,0 +1,8 @@
+{
+  "atom-text-editor.vim-mode-plus:not(.insert-mode)": {
+    "space i t": "atom-attribute-sorter:sort"
+  },
+  "atom-text-editor:not(.vim-mode-plus)": {
+    "ctrl-k t": "atom-attribute-sorter:sort"
+  }
+}

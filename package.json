@@ -1,0 +1,20 @@
+{
+  "name": "atom-attribute-sorter",
+  "main": "./lib/atom-attribute-sorter",
+  "version": "0.0.0",
+  "description": "This sorts attributes on a HTML element in the order defined",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "atom-attribute-sorter:sort"
+  },
+  "repository": "https://github.com/keevan/atom-attribute-sorter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "posthtml": "^0.11.3",
+    "posthtml-attrs-sorter": "^1.1.0"
+  }
+}
