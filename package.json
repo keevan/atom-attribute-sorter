@@ -1,7 +1,7 @@
 {
   "name": "atom-attribute-sorter",
   "main": "./lib/atom-attribute-sorter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This sorts attributes on a HTML element in the order defined",
   "keywords": [],
   "activationCommands": {
@@ -15,7 +15,6 @@
   "dependencies": {
     "posthtml": "^0.11.3",
     "posthtml-attrs-sorter": "^1.1.0"
-	},
-  "devDependencies": {
-  }
+  },
+  "devDependencies": {}
 }
