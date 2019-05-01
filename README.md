@@ -7,7 +7,7 @@ not change the order).
 
 ## Animated Examples
 
-Coming soon
+![Small example](https://user-images.githubusercontent.com/9924643/57016054-67c07280-6c5b-11e9-9bd1-043e267015ce.gif)
 
 ## Notes about behaviour
 
