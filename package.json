@@ -12,9 +12,10 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "posthtml": "^0.11.3",
     "posthtml-attrs-sorter": "^1.1.0"
+	},
+  "devDependencies": {
   }
 }
